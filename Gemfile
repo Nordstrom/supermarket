@@ -12,7 +12,7 @@ group :development do
 end
 
 group :test do
-  gem 'chefspec', '~> 4.2.0.beta.1'
+  gem 'chefspec', '~> 4.2.0.0.0'
 end
 
 group :integration do
