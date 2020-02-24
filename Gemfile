@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'berkshelf', '~> 3.1.5'
 
 group :development do
-  gem 'foodcritic', '~> 4.0'
+  gem 'foodcritic', '~> 4.0', '>= 4.0.0'
   gem 'license_finder', '~> 1.1.1'
   gem 'rubocop', '~> 0.26.1'
   gem 'pry'
